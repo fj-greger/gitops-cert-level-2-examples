@@ -18,7 +18,7 @@ steps:
   build:
     title: "Building Docker image"
     type: "build"
-    image_name: "kostiscodefresh/gitops-simple-app"
+    image_name: "fj-greger/gitops-simple-app"
     working_directory: "${{clone}}/source-code"
     tag: main
     tags:
